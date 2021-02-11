@@ -1,1 +1,48 @@
-Hola Mundo
+Pasos para configurar la cuenta en GitHb.
+
+1. Crear una cuenta en www.github.com
+2. Crear un par de llaves con el comando 
+
+ssh-keygen.exe
+
+RECOMENDACIONES:
+Aceptar los valores por defecto (Enter en las preguntas)
+No colocar passphares
+
+RESULTADO:
+C:\Users\nombreusuario\.ssh\idrsa
+C:\Users\nombreusuario\.ssh\idrsa.pub   (la que tienen que copiar a Github)
+
+
+3. Abrir la llave publica (puden utilizar cualquier edito de texto)
+o:
+
+cat idrsa.pub
+
+4. Guardar esta llave en su cuenta de Github.
+
+  a. HAcer clic en el icono de su foto.
+  b. Settings
+  c. SSH GPG Keys
+  d. Guardar nueva llave SSH.
+
+5. Crear un repositorio con cualquier nombre
+6. Copiar la direccion SSH: git@github.com:.......
+7. Escogen una carpeta donde iran sus proyectos.
+8. Clonar el repositorio
+
+git clone git@github.com:.......
+
+9. Crear archivo txt
+10. Agregar contenido al archivo
+11. Agregar al repositorio local
+
+git add nombrearchivo.txt
+
+12. Confirmar las modificaicones con commit
+
+git commit -m "un comentario"
+
+13. Subir los commits al repositorio remoto (github)
+
+git push
