@@ -13,9 +13,14 @@ Agregando documentos C y D
  
  public static void main() {
 	var a  = 5;
+<<<<<<< HEAD
 	var b = 7 ;
 	var c = 3;
 	return a + b + c;
+=======
+	var b = 10;
+	return a * b;
+>>>>>>> 98e4ef4fcf428a119858c3a28662e6ad7edee710
  }
 4 minutes ago
 Prueba.txt
