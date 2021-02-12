@@ -1,21 +1,5 @@
+(👍 ͡👁️ ͜ʖ ͡👁️)👍
 
-1 branch
-0 tags
-Latest commit
-@ernestomar
-ernestomar Merge branch 'master' of github.com:ernestomar/temp-repo
-a5c54ce
-2 minutes ago
-Git stats
-
-    5 commits
-
-Files
-Type
-Name
-Latest commit message
-Commit time
-Doc A.txt
 agregando documentos
 1 hour ago
 Doc B.txt
