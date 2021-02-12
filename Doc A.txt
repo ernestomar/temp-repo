@@ -13,8 +13,8 @@ Agregando documentos C y D
  
  public static void main() {
 	var a  = 5;
-	var b = 7 ;
-	return a + b;
+	var b = 10;
+	return a * b;
  }
 4 minutes ago
 Prueba.txt
